@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import profileImage from "../../assets/user.png"
 
 const Item = ({title, to, icon, selected, setSelected}) => {
   const theme = useTheme()
@@ -89,9 +90,12 @@ const SideBar = () => {
                 <Box 
                   display="flex" 
                   justifyContent="center"
+                  width="100px"
+                  height="100px"
+                  margin="auto"
                   alignItems="center">
                     <img
-                      src={`../../../assets/user.png`}
+                      src={profileImage}
                       alt="profile-user"
                       width="100%"
                       height="100%"
