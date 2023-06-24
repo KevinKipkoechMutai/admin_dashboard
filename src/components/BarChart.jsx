@@ -1,7 +1,7 @@
 import { useTheme } from "@emotion/react"
 import { ResponsiveBar } from "@nivo/bar"
 import { tokens } from "../theme"
-import { mockerBarData as data } from "../data/mockData"
+import { mockBarData as data } from "../data/mockData"
 
 const BarChart = ({ isDashboard = false }) => {
     const theme = useTheme()
